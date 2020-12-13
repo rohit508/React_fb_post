@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
+  background-color: #F2F3F4;
+}
+
+
+
+
+
+
+.app {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 40%;
+  height: 100vh;
+  padding: 3px ;
+}  
+
+
+
+.postStyle {
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.proPicStyle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.dateStyle {
+  display: block;
+  font-size: 12px;
+  color:#b8b8b8 ;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.divInline {
+  display: inline;
+  vertical-align: top;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  margin-top: -1px;
+
+
+}
+
+.dFlex {
+  display: flex;
+}
+
+.linkStyle {
+  vertical-align: top;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.linkStyle:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.likeBtn {
+  width: 30%;
+  padding: 10px;
+   font-weight: bold;
+    border: none  ;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: white;
+    outline: none;
+}
+
+.likeBtn:hover  {
+  background-color: rgb(235, 235, 235);
+  border-radius: 8px;
+
+}
+
+.commentBtn {
+  width: 30%;
+  padding: 10px;
+  font-weight: bold;
+  border: none  ;
+  margin-top: 10px;
+  outline: none;
+  background-color: white;
+  font-size: 15px;
+
+
+  
+}
+
+.commentBtn:hover  {
+  background-color: rgb(235, 235, 235);
+  border-radius: 8px;
+
+}
+
+.shareBtn {
+  width: 30%;
+  padding: 10px;
+  font-weight: bold;
+  border: none  ;
+  margin-top: 10px;
+  outline: none;
+  background-color: white;
+  font-size: 15px;
+
+}
+
+.shareBtn:hover  {
+  background-color: rgb(235, 235, 235);
+  border-radius: 8px;
+
+}
